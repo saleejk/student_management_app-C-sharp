@@ -86,6 +86,7 @@ class Program
         //course
         cs.addCource(new Course { courseId = 1, courseName = "science" });
         cs.addCource(new Course { courseId = 2, courseName = "commerce" });
+        cs.addCource(new Course { courseId = 2, courseName = "commerce" });
         cs.addCource(new Course { courseId = 3, courseName = "science" });
         Console.WriteLine("\n \n \nCourse List");
         cs.viewCourse();
